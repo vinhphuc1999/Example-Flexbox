@@ -85,12 +85,14 @@ body {
   flex-direction: column;
   margin-top: 36px;
   justify-content: space-around;
+
 }
 
 /* PC, Tablet */
-@media (min-width: 740px) {
+@media (min-width: 739px) {
   .feature-layout {
     flex-direction: row;
+    flex-direction: row-reverse;
   }
 }
 
